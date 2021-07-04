@@ -1,0 +1,1 @@
+mysql sample < example.sql
