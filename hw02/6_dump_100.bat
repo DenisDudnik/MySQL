@@ -1,0 +1,1 @@
+mysqldump example users -w"id<3" > examples100.sql
