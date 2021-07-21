@@ -1,0 +1,1 @@
+SELECT count(*), dayofweek(concat(YEAR(now()),substring(birthday_at, 5, 10))) AS dow FROM users GROUP BY dow ORDER BY dow;

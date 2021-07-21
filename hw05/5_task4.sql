@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE date_format(birthday_at, '%M') IN ('may', 'august');
