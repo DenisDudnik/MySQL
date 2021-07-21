@@ -1,0 +1,1 @@
+select exp(sum(ln(id))) from users WHERE id BETWEEN 1 AND 5;
